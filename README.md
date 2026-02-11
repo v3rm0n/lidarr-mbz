@@ -2,6 +2,8 @@
 
 This userscript adds `Add in Lidarr` and `Quick Add` buttons to MusicBrainz results/pages so you can send entries straight to Lidarr without manual copy/paste.
 
+![screenshot](screenshot.png)
+
 ## Requirements
 
 - Safari + [Userscripts extension](https://apps.apple.com/us/app/userscripts/id1463298887)
