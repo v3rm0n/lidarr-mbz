@@ -1,4 +1,4 @@
-# MusicBrainz -> Lidarr Safari Userscript
+# MusicBrainz -> Lidarr Userscript
 
 This userscript adds `Add in Lidarr` and `Quick Add` buttons to MusicBrainz results/pages so you can send entries straight to Lidarr without manual copy/paste.
 
@@ -6,7 +6,7 @@ This userscript adds `Add in Lidarr` and `Quick Add` buttons to MusicBrainz resu
 
 ## Requirements
 
-- Safari + [Userscripts extension](https://apps.apple.com/us/app/userscripts/id1463298887)
+- Safari + [Userscripts extension](https://apps.apple.com/us/app/userscripts/id1463298887) or Chrome + [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en&pli=1)
 - Access to a running Lidarr instance
 
 ## Install
@@ -15,8 +15,8 @@ This userscript adds `Add in Lidarr` and `Quick Add` buttons to MusicBrainz resu
 2. Edit the metadata block and replace the placeholder match line:
    - From: `// @match        https://lidarr.example.com/*`
    - To: your actual Lidarr URL, for example `// @match        https://lidarr.my-domain.com/*`
-3. Save the script.
-4. Import/enable it in Safari Userscripts.
+3. Save the script
+4. Import/enable
 
 ## First-run setup
 
@@ -88,7 +88,7 @@ Shape:
 ## Notes
 
 - This script is intentionally scoped with a manual Lidarr `@match` line so you control exactly where it runs.
-- If popup blocking prevents new tabs, allow popups for MusicBrainz in Safari.
+- If popup blocking prevents new tabs, allow popups for MusicBrainz in your browser.
 - If Lidarr runs under a non-root path behind a reverse proxy, set your base URL carefully and test both modes.
 
 ## Manual test checklist
